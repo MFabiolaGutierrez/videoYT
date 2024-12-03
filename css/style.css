@@ -1,0 +1,183 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background-color: #121212;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    font-weight: bold;
+    font-family: 'Helvetica Neue', sans-serif; 
+    color: #00b4d8; 
+}
+
+.navbar-dark .nav-link {
+    color: #ddd;
+    font-size: 1.1rem;
+}
+
+.navbar-dark .nav-link:hover {
+    color: #fff;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+header .content {
+    z-index: 2;
+}
+
+header h1 {
+    font-size: 3rem; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+header p {
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
+section h2 {
+    color: #00b4d8;
+    font-size: 2.5rem; 
+    font-weight: 700;
+}
+
+#contacto {
+    background-color: #e5e3e3; 
+    color: #fff;
+    padding: 50px 0;
+}
+
+#contacto h2 {
+    color: #0e1011;  
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#contacto p {
+    color: #ccc;
+    font-size: 1.1rem;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-row {
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    font-size: 1rem; 
+    padding: 10px; 
+    border-radius: 8px;
+}
+
+textarea.form-control {
+    font-size: 1rem;
+    padding: 10px;
+}
+
+button[type="submit"] {
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+button[type="submit"]:hover {
+    background-color: #008c9e;
+}
+
+
+footer {
+    background-color: #121212;
+    color: #ccc;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+footer .fab {
+    margin-right: 15px;
+    font-size: 2rem;
+}
+
+#quienes-somos {
+    background-color: #90a1b1 ; 
+    padding: 50px 0;
+}
+
+#quienes-somos .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    border: none;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+#quienes-somos .card-img-top {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: -75px auto 20px;
+}
+
+#quienes-somos .card-body {
+    flex-grow: 1;
+    padding-top: 20px;
+}
+
+#quienes-somos .card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#quienes-somos .card-text {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+#episodio {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+#episodio iframe {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+#episodio .container {
+    text-align: center;
+}
+
+#episodio h2 {
+    color: #333;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+#episodio p {
+    font-size: 1.2rem;
+    color: #555;
+}
